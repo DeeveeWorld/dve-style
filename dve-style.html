@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`dve-style`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="dve-style">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'dve-style',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'dve-style',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
