@@ -71,13 +71,13 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
   :root {
 
     /*  BASIC COLORS OF deevee.world  */
-	--deevee-blue: #24B1FF;
-	--deevee-darkblue: #004A93;
-	--deevee-white: #FAFAFA;
-	--deevee-grey1: #F4F4F4;
-	--deevee-grey2: #7F7F7F;
-	--deevee-grey3: #333333;
-	--deevee-grey4: #191919;
+	--dve-blue: #24B1FF;
+	--dve-darkblue: #004A93;
+	--dve-white: #FAFAFA;
+	--dve-grey1: #F4F4F4;
+	--dve-grey2: #7F7F7F;
+	--dve-grey3: #333333;
+	--dve-grey4: #191919;
 
 
 
@@ -139,11 +139,11 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
     --dve-font-h1: {
       @apply(--montserrat-hairline);
-      -webkit-margin-before:7px;
-      -webkit-margin-after:7px;
+      -webkit-margin-before:0px;
+      -webkit-margin-after:0px;
       -webkit-margin-start:0em;
       -webkit-margin-end:0em;
-      margin: 7px 0px 7px 0px;
+      margin: 0px 0px 0px 0px;
       padding: 0px;
       font-size: 40px;
       line-height: 48px;
@@ -151,11 +151,11 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
     --dve-font-h2: {
       @apply(--montserrat-light);
-      -webkit-margin-before:7px;
-      -webkit-margin-after:7px;
+      -webkit-margin-before:0px;
+      -webkit-margin-after:0px;
       -webkit-margin-start:0em;
       -webkit-margin-end:0em;      
-      margin: 7px 0px 7px 0px;
+      margin: 0px 0px 0px 0px;
       padding: 0px;
       font-size: 30px;
       line-height: 34px;
@@ -277,45 +277,45 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 	h4 { @apply(--dve-font-h4); }
 	p { @apply(--dve-font-body1); }
 
-	.blue { color: var(--deevee-blue); }
-	.darkblue { color: var(--deevee-darkblue); }
-	.white { color: var(--deevee-white); }
-	.grey1 { color: var(--deevee-grey1); }
-	.grey2 { color: var(--deevee-grey2); }
-	.grey3 { color: var(--deevee-grey3); }
-	.grey4 { color: var(--deevee-grey4); }		
+	.blue { color: var(--dve-blue); }
+	.darkblue { color: var(--dve-darkblue); }
+	.white { color: var(--dve-white); }
+	.grey1 { color: var(--dve-grey1); }
+	.grey2 { color: var(--dve-grey2); }
+	.grey3 { color: var(--dve-grey3); }
+	.grey4 { color: var(--dve-grey4); }		
 
-	.blueback { background-color: var(--deevee-blue); }
-	.darkblueback { background-color: var(--deevee-darkblue); }
-	.whiteback { background-color: var(--deevee-white); }
-	.grey1back { background-color: var(--deevee-grey1); }
-	.grey2back { background-color: var(--deevee-grey2); }
-	.grey3back { background-color: var(--deevee-grey3); }
-	.grey4back { background-color: var(--deevee-grey4); }	
+	.blueback { background-color: var(--dve-blue); }
+	.darkblueback { background-color: var(--dve-darkblue); }
+	.whiteback { background-color: var(--dve-white); }
+	.grey1back { background-color: var(--dve-grey1); }
+	.grey2back { background-color: var(--dve-grey2); }
+	.grey3back { background-color: var(--dve-grey3); }
+	.grey4back { background-color: var(--dve-grey4); }	
 
 	.lighter { background-color: rgba(255,255,255,0.2); }
 	.darker { background-color: rgba(0,0,0,0.05); }
 
 
 	.blueback_white { 
-		background-color: var(--deevee-blue);
-		color: var(--deevee-white); 
+		background-color: var(--dve-blue);
+		color: var(--dve-white); 
 	}
 
 	.grey1back_grey4 { 
-		background-color: var(--deevee-grey1);
-		color: var(--deevee-grey4); 
+		background-color: var(--dve-grey1);
+		color: var(--dve-grey4); 
 	}
 
 	.grey3back_white { 
-		background-color: var(--deevee-grey3);
-		color: var(--deevee-white); 
+		background-color: var(--dve-grey3);
+		color: var(--dve-white); 
 	}
 
 
 	.grey4back_grey2 { 
-		background-color: var(--deevee-grey4);
-		color: var(--deevee-grey1); 
+		background-color: var(--dve-grey4);
+		color: var(--dve-grey1); 
 	}
 
 
@@ -331,3 +331,8 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 		width: 100%;
 		height: 20px;
 	}
+
+
+  .flex {
+    @apply(--layout-flex);
+  }
